@@ -1,0 +1,17 @@
+.outfit{
+  padding: 0 0 100px;
+
+  &__card{
+    &-title{
+      font-weight: 300;
+      font-size: 20px;
+      color: #252525;
+      margin: 70px 0 30px;
+    }
+
+    &-imgs{
+      display: flex;
+      column-gap: 15px;
+    }
+  }
+}

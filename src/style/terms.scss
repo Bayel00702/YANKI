@@ -1,0 +1,42 @@
+.terms{
+  padding: 30px 0 270px;
+
+  &__title{
+    font-weight: 300;
+    font-size: 20px;
+    color: #252525;
+  }
+
+  &__subtitle{
+    font-weight: 300;
+    font-size: 16px;
+    color: #252525;
+    margin: 20px 0 10px;
+  }
+
+  &__text{
+    font-weight: 300;
+    font-size: 16px;
+    color: #252525;
+    margin-bottom: 20px;
+  }
+
+  &__row{
+    display: flex;
+    column-gap: 30px;
+  }
+
+  &__card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    row-gap: 10px;
+
+    &-text{
+      font-weight: 300;
+      font-size: 16px;
+      color: #252525;
+    }
+  }
+}

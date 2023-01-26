@@ -1,0 +1,41 @@
+.footer{
+  padding:0 0 74px;
+  background: #E5E5E5;
+
+  &__text{
+    font-weight: 300;
+    font-size: 12px;
+    text-align: center;
+    color: #252525;
+    margin-top: 50px;
+  }
+  &__row{
+    display: flex;
+    justify-content: center;
+    column-gap: 150px;
+  }
+
+  &__list{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+
+    &-title{
+      font-weight: 300;
+      font-size: 20px;
+      color: #252525;
+    }
+  }
+
+  &__item{
+    font-weight: 200;
+    font-size: 16px;
+    color: #252525;
+
+
+  }
+
+  .icon-instagram, .icon-telegram{
+    color: #E0BEA2;
+  }
+}

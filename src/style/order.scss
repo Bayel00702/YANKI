@@ -1,0 +1,111 @@
+.order{
+  padding: 0 0 70px;
+  background: #E5E5E5;
+
+  &__title{
+    font-weight: 300;
+    font-size: 20px;
+    margin-bottom: 30px;
+    color: #252525;
+  }
+
+  &__subtitle{
+    font-weight: 300;
+    font-size: 16px;
+    text-align: right;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #252525;
+    margin-top: 83px;
+
+    &:after{
+      content: '15250 грн';
+      font-weight: 700;
+      font-size: 16px;
+      color: #252525;
+      margin-left: 13px;
+    }
+  }
+
+  &__card{
+    display: flex;
+    column-gap: 138px;
+    align-items: center;
+    margin-bottom: 20px;
+    position: relative;
+
+
+    &:before{
+      content: '';
+      position: absolute;
+      width: 1180px;
+      height: 1px;
+      background: #252525;
+      bottom: -10px;
+
+    }
+
+    &-info2{
+      margin-right: 38px;
+    }
+
+    &-info{
+      display: flex;
+      column-gap: 10px;
+
+      &__text{
+        &-subtitle{
+          font-weight: 300;
+          font-size: 14px;
+          color: #E0BEA2;
+          margin-bottom: 29px;
+        }
+
+        &-title{
+          font-weight: 300;
+          font-size: 16px;
+          color: #252525;
+        }
+      }
+    }
+
+    &-size{
+      padding: 16px 30px;
+      border: 1px solid #252525;
+
+      &__text{
+        display: flex;
+        align-items: center;
+        column-gap: 14px;
+      }
+    }
+
+    &-number{
+      padding: 15px 30px;
+      border: 1px solid #252525;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      &__text{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        column-gap: 14px;
+        font-weight: 300;
+        font-size: 16px;
+        font-feature-settings: 'pnum' on, 'lnum' on;
+        color: #252525;
+      }
+    }
+
+    &-price{
+      display: flex;
+      column-gap: 31px;
+
+      &__text{
+        font-weight: 700;
+        font-size: 16px;
+        color: #252525;
+      }
+    }
+  }
+}

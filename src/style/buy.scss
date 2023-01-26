@@ -1,0 +1,16 @@
+.basket{
+  display: none;
+  width: 1300px;
+  margin: 0 auto;
+  background: #E5E5E5;
+  position: relative;
+
+
+  &__img{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+  }
+}

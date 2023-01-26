@@ -1,0 +1,132 @@
+.coat{
+  padding: 0 0 110px;
+
+  &__row{
+    display: flex;
+    column-gap: 50px;
+  }
+
+  &__left{
+    display: flex;
+    column-gap: 10px;
+
+    &-small{
+      display: flex;
+      flex-direction: column;
+      row-gap: 10px;
+    }
+  }
+
+  &__right{
+
+    &-title{
+      font-weight: 300;
+      font-size: 20px;
+      color: #252525;
+    }
+
+    &-price{
+      font-weight: 700;
+      font-size: 16px;
+      color: #252525;
+      margin: 20px 0;
+    }
+
+    &-color{
+      font-weight: 300;
+      font-size: 14px;
+      color: #E0BEA2;
+      margin: 10px 0 20px;
+    }
+
+    &-option{
+      width: 100%;
+      background: transparent;
+      padding: 16px 19px;
+
+      &__2{
+        padding: 16px 0;
+        border: none;
+        border-bottom: .3px solid #252525;
+      }
+    }
+
+    &-btns{
+      display: flex;
+      column-gap: 30px;
+      margin: 35px 0 20px;
+
+      &__btn{
+        padding: 16px 83px;
+        display: flex;
+        align-items: center;
+        column-gap: 11px;
+        background: transparent;
+        border: 0.2px solid #252525;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #252525;
+
+
+
+      }
+
+      &__btnss{
+        padding: 16px 85px;
+        display: flex;
+        align-items: center;
+        column-gap: 11px;
+        background: #E0BEA2;
+        border: 1px solid #E0BEA2;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFFFFF;
+      }
+    }
+
+    &-text{
+      font-weight: 300;
+      font-size: 16px;
+      color: #252525;
+    }
+
+    &-subtitle{
+      font-weight: 300;
+      font-size: 16px;
+      color: #252525;
+      margin: 30px 0 10px;
+    }
+
+    &-text2{
+      font-weight: 200;
+      font-size: 14px;
+      color: #252525;
+      margin-bottom: 20px;
+    }
+
+    &-list{
+      position: relative;
+      &:before{
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: -10px;
+        width: 530px;
+        height: 1px;
+        background: #252525;
+      }
+    }
+
+    &-item{
+      font-weight: 200;
+      font-size: 14px;
+      color: #252525;
+    }
+  }
+}

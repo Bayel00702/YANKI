@@ -1,0 +1,152 @@
+.header{
+  background: url("../image/header/1.png") center/cover no-repeat;
+  padding: 24px 0 393px;
+  position: relative;
+  z-index: 5;
+
+  &__nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__menu{
+    display: flex;
+    column-gap: 15px;
+
+    &-link{
+      font-weight: 300;
+      font-size: 18px;
+      color: #FFFFFF;
+      &:hover{
+        color: #E0BEA2;
+      }
+    }
+  }
+
+  &__logo2{
+    display: none;
+  }
+
+  &__translate{
+    display: flex;
+    column-gap: 15px;
+
+    &-text{
+      font-weight: 300;
+      font-size: 18px;
+      color: #FFFFFF;
+      display: flex;
+      align-items: center;
+      column-gap: 7px;
+    }
+  }
+
+  &__translate2{
+    display: none;
+  }
+
+  &__icon{
+    display: flex;
+    column-gap: 30px;
+  }
+
+  &__icon2{
+    display: none;
+  }
+  &__icon3{
+    display: none;
+  }
+
+  &__title{
+    font-weight: 300;
+    font-size: 46px;
+    line-height: 54px;
+    margin: 329px 0 0;
+    text-align: center;
+    color: #FFFFFF;
+    position: relative;
+
+    &:before{
+      content: '';
+      position: absolute;
+      width: 120px;
+      height: 1px;
+      background: #FFFFFF;
+      bottom: -50%;
+      left: 45%;
+    }
+  }
+
+  &__text{
+    font-weight: 300;
+    font-size: 16px;
+    margin: 40px 0 300px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
+}
+
+.header2{
+  background: #E5E5E5;
+  padding: 24px 0 30px;
+
+  &__nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__menu2{
+    display: flex;
+    column-gap: 15px;
+    &-link2{
+      font-weight: 300;
+      font-size: 18px;
+      color: #252525;
+
+      &:hover{
+        color: #E0BEA2;
+      }
+    }
+  }
+
+  &__icon2{
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+  }
+  &__icon3{
+  display: none;
+  }
+
+  &__logo3{
+    display: none;
+  }
+
+  &__translate2{
+    display: flex;
+    column-gap: 15px;
+    &-text2{
+      font-weight: 300;
+      font-size: 18px;
+      color: #252525;
+
+    }
+  }
+  &__translate3{
+   display: none;
+  }
+
+  &__general{
+    display: flex;
+    column-gap: 10px;
+    margin: 38px 0 0;
+    &-text{
+      font-weight: 300;
+      font-size: 16px;
+      color: #252525;
+    }
+  }
+}

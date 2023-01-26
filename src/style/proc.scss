@@ -1,0 +1,25 @@
+.proc{
+  padding: 0 0 279px;
+
+  &__title{
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+    margin-bottom: 25px;
+    color: #252525;
+  }
+  &__row{
+    display: flex;
+    column-gap: 77px;
+  }
+  &__card{
+    display: flex;
+    column-gap: 15px;
+
+    &-text{
+      font-weight: 300;
+      font-size: 16px;
+      color: #252525;
+    }
+  }
+}

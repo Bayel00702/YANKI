@@ -1,0 +1,44 @@
+.category{
+  padding: 120px 0 ;
+
+  &__title{
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 42px;
+    color: #252525;
+
+  }
+
+  &__row{
+    display: flex;
+    column-gap: 10px;
+    margin-top: 50px;
+  }
+
+  &__card{
+    width: calc(25% - 2.5px);
+    position: relative;
+
+    &-img{
+      position: relative;
+      z-index: 5;
+    }
+  }
+
+
+  &__img{
+    position: relative;
+    z-index: 5;
+  }
+
+  &__card-img:before{
+    content: "";
+    background: url("../image/category/6.png") center/cover no-repeat;
+    position: absolute;
+    z-index: 10;
+    bottom: 0;
+    left: 0;
+    width: 274px;
+    height: 40px;
+  }
+}

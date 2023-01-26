@@ -1,0 +1,263 @@
+.registr{
+  padding: 70px 0 100px;
+  background: #E5E5E5;
+
+  &__title{
+    font-weight: 300;
+    font-size: 20px;
+    margin-bottom: 30px;
+    color: #252525;
+  }
+
+  &__row{
+    display: flex;
+    column-gap: 20px;
+  }
+
+  &__form {
+   display: flex;
+   flex-direction: column;
+
+    &-card{
+      &__title{
+        font-weight: 300;
+        font-size: 16px;
+        margin-bottom: 20px;
+        color: #252525;
+      }
+
+      &__inputs{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px 20px;
+        width: 820px;
+      }
+
+      &__input{
+        padding: 16px 19px;
+        width: 400px;
+        background: transparent;
+        border: 0.5px solid #252525;
+        font-weight: 200;
+        font-size: 16px;
+        color: rgba(37, 37, 37, 0.5);
+      }
+    }
+
+    &-delivery{
+      &__title{
+        font-weight: 300;
+        font-size: 16px;
+        margin: 20px 0;
+        color: #252525;
+      }
+
+      &__row{
+        display: flex;
+        column-gap: 20px;
+      }
+
+      &__left{
+
+        &-title{
+          font-weight: 300;
+          font-size: 16px;
+          color: #252525;
+          margin-bottom: 20px;
+        }
+
+        &-list{
+          display: flex;
+          flex-direction: column;
+          row-gap: 20px;
+          margin-bottom: 20px;
+          margin-left: 20px;
+        }
+
+        &-item{
+          font-weight: 300;
+          font-size: 16px;
+          line-height: 19px;
+          font-feature-settings: 'pnum' on, 'lnum' on;
+          color: #252525;
+          list-style-type: circle ;
+        }
+
+        &-form{
+          display: flex;
+          flex-direction: column;
+          row-gap: 20px;
+
+          &__input{
+            border: 3px solid green;
+          }
+        }
+      }
+    }
+
+    &-address{
+      &__title{
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 19px;
+        margin: 20px 0 20px;
+        color: #252525;
+      }
+
+      &__form{
+        display: flex;
+        column-gap: 20px;
+        &-input{
+          padding: 16px 19px;
+          width: 400px;
+          background: transparent;
+          border: 0.5px solid #252525;
+          font-weight: 200;
+          font-size: 16px;
+          color: rgba(37, 37, 37, 0.5);
+          margin-bottom: 20px;
+
+        }
+      }
+
+
+    }
+
+    &-pay{
+      &__title{
+        font-weight: 300;
+        font-size: 16px;
+        color: #252525;
+        margin-bottom: 20px;
+      }
+
+      &__list{
+        display: flex;
+        gap: 20px 100px;
+        flex-wrap: wrap;
+        margin-bottom: 20px;
+      }
+
+      &__item{
+        font-weight: 200;
+        font-size: 16px;
+        color: #252525;
+      }
+
+
+    }
+
+    &-bonus{
+
+      &__title{
+        font-weight: 300;
+        font-size: 16px;
+        margin-bottom: 20px;
+        color: #252525;
+      }
+
+      &__input{
+        padding: 16px 19px;
+        width: 820px;
+        background: transparent;
+        border: 0.5px solid #252525;
+        font-weight: 200;
+        font-size: 16px;
+        color: rgba(37, 37, 37, 0.5);
+        margin-bottom: 100px;
+      }
+    }
+ }
+
+  &__total{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+
+    &-menu{
+      display: flex;
+      flex-direction: column;
+      row-gap: 20px;
+      margin-bottom: 10px;
+
+      &__link{
+        font-weight: 300;
+        font-size: 16px;
+        color: #252525;
+      }
+    }
+
+    &-check{
+      display: flex;
+      flex-direction: column;
+      row-gap: 15px;
+      margin-top: 20px;
+      margin-bottom: 15px;
+
+      &__text{
+        font-weight: 300;
+        font-size: 16px;
+        color: #252525;
+      }
+
+      &__text1{
+        position: relative;
+        &:after{
+          content: 'По тарифам перевозчика';
+          font-weight: 700;
+          font-size: 16px;
+          line-height: 19px;
+          color: #252525;
+          margin-left: 9px;
+        }
+      }
+
+      &__text2{
+        position: relative;
+        &:after{
+          content: '-69 грн';
+          font-weight: 700;
+          font-size: 16px;
+          line-height: 19px;
+          color: #252525;
+          margin-left: 170px;
+        }
+      }
+
+      &__text3{
+        position: relative;
+        &:after{
+          content: '15250 грн';
+          font-weight: 700;
+          font-size: 16px;
+          line-height: 19px;
+          color: #252525;
+          margin-left: 165px;
+        }
+      }
+
+    }
+
+    &-btn{
+      width: 300px;
+      padding: 16px 0;
+      background: #E0BEA2;
+      border: 1px solid #E0BEA2;
+      font-weight: 300;
+      font-size: 16px;
+      line-height: 19px;
+      color: #FFFFFF;
+      margin-bottom: 15px;
+    }
+
+    &-text{
+      font-weight: 300;
+      font-size: 14px;
+      color: #252525;
+    }
+  }
+
+
+
+
+}
