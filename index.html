@@ -11,11 +11,14 @@
 
     <link rel="stylesheet" href="./src/style/style.css">
 </head>
-<body>
+<body class="body2">
 
 <header class="header">
     <div class="container">
         <nav class="header__nav">
+
+
+
             <div  id="login" class="header__left">
             <span><svg width="34" height="24" viewBox="0 0 34 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 <rect width="34" height="4" fill="white"/>
@@ -86,7 +89,7 @@
 <path d="M0.5 25C0.5 22.4741 1.5034 20.0517 3.28946 18.2656C5.07552 16.4796 7.49794 15.4762 10.0238 15.4762C12.5497 15.4762 14.9721 16.4796 16.7582 18.2656C18.5442 20.0517 19.5476 22.4741 19.5476 25H17.1667C17.1667 23.1056 16.4141 21.2888 15.0746 19.9492C13.735 18.6097 11.9182 17.8571 10.0238 17.8571C8.1294 17.8571 6.31259 18.6097 4.97305 19.9492C3.6335 21.2888 2.88095 23.1056 2.88095 25H0.5ZM10.0238 14.2857C6.07738 14.2857 2.88095 11.0893 2.88095 7.14286C2.88095 3.19643 6.07738 0 10.0238 0C13.9702 0 17.1667 3.19643 17.1667 7.14286C17.1667 11.0893 13.9702 14.2857 10.0238 14.2857ZM10.0238 11.9048C12.6548 11.9048 14.7857 9.77381 14.7857 7.14286C14.7857 4.5119 12.6548 2.38095 10.0238 2.38095C7.39286 2.38095 5.2619 4.5119 5.2619 7.14286C5.2619 9.77381 7.39286 11.9048 10.0238 11.9048Z" fill="white"/>
 </svg>
 </span></a>
-            <a target="_blank" href=""><span><svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <a target="_blank" href="./favorites/index.html"><span><svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M12.501 2.16119C15.4372 -0.475012 19.9746 -0.387513 22.8033 2.44618C25.6308 5.28113 25.7283 9.79605 23.0983 12.741L12.4985 23.3558L1.90122 12.741C-0.728729 9.79605 -0.62998 5.27363 2.19622 2.44618C5.02741 -0.383763 9.55608 -0.478762 12.501 2.16119ZM21.0334 4.2124C19.1584 2.33494 16.1335 2.25869 14.171 4.02115L12.5023 5.51863L10.8323 4.0224C8.86359 2.25744 5.8449 2.33494 3.96493 4.2149C2.10247 6.07737 2.00872 9.05856 3.72494 11.0285L12.4998 19.8171L21.2746 11.0298C22.9921 9.05856 22.8983 6.08112 21.0334 4.2124Z" fill="white"/>
 </svg>
 </span></a>
@@ -117,6 +120,11 @@
 
 </span></a>
         </div>
+
+            <div class="header__user">
+                <span class='header__user-name'></span>
+                <span class="header__user-action"></span>
+            </div>
         </nav>
 
 
@@ -130,19 +138,7 @@
     </div>
 </header>
 
-<div  class="burMenu">
-    <div class="container">
-        <div class="burMenu__menu">
-            <a href="" class="burMenu__menu-link">Обмен и возврат</a>
-            <a href="" class="burMenu__menu-link">Оплата и доставка</a>
-            <a href="" class="burMenu__menu-link"></a>
-            <a href="" class="burMenu__menu-link"></a>
-            <p class="burMenu__menu-text">Закрыть</p>
-        </div>
 
-
-    </div>
-</div>
 
 <main class="main">
     <section class="category">
@@ -151,21 +147,38 @@
             <h2 class="category__title">Категории</h2>
             <div class="category__row">
                 <div class="category__card">
-                    <img class="category__img" src="./src/image/category/1.png" alt="">
+                    <img class="category__img" src="https://n.nordstrommedia.com/id/e3c9f60e-3695-46d2-b6cf-fcb323050644.jpeg?h=573&w=444" alt="">
+                    <h2 class="category__text">Women's</h2>
                 </div>
                 <div class="category__card">
-                    <img class="category__img" src="./src/image/category/2.png" alt="">
+                    <img src="https://media.gq-magazine.co.uk/photos/628dfb6e60783de8a9d33274/master/w_2174,h_3000,c_limit/Clothing-Essentials-21.jpg" alt="" class="category__img">
+                    <h2 class="category__text">Men's</h2>
                 </div>
-
                 <div class="category__card">
-                    <img class="category__img" src="./src/image/category/3.png" alt="">
+                    <img src="https://cdn.shopify.com/s/files/1/0585/0729/6953/files/3_648af5b3-d3ff-4422-b637-beea9aad94a8.png?v=1651792930" alt="" class="category__img">
+                    <h2 class="category__text">Jewellery</h2>
                 </div>
-
-                <div class="category__card category__card-img">
-                    <img class="category__img" src="./src/image/category/4.png" alt="">
+                <div class="category__card">
+                    <img src="https://www.jiomart.com/images/product/original/rvrgwpjvsp/bruton-trendy-sports-shoes-for-men-blue-product-images-rvrgwpjvsp-0-202209021256.jpg" alt="" class="category__img">
+                    <h2 class="category__text">Shoes</h2>
+                </div>
+                <div class="category__card">
+                    <img src="https://media.istockphoto.com/id/513381306/vector/vector-set-of-isometric-computer-devices-icons.jpg?s=612x612&w=0&k=20&c=wsz3QyTqEQjOqVdu3NN9aP7---H0zfSJjF90lttIM7k=" alt="" class="category__img">
+                    <h2 class="category__text">Electronics</h2>
                 </div>
             </div>
         </div>
+    </section>
+    <section class="trending">
+        <h2 class="trending__title title">
+            Trending
+        </h2>
+        <div class="trending__row">
+
+        </div>
+        <button class="trending__btn btn">
+            See more
+        </button>
     </section>
     <section class="sms">
         <div class="container">
@@ -221,6 +234,9 @@
         </div>
     </div>
 </footer>
+
+<script type="module" src="./user.js"></script>
+<script type="module" src="src/js/main.js"></script>
 <script src="src/js/burMenu.js"></script>
 </body>
 </html>

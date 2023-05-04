@@ -2,6 +2,11 @@
   padding: 0 0 70px;
   background: #E5E5E5;
 
+  &__img{
+    width: 100px;
+    height: 100px;
+  }
+
   &__title{
     font-weight: 300;
     font-size: 20px;
@@ -17,13 +22,6 @@
     color: #252525;
     margin-top: 83px;
 
-    &:after{
-      content: '15250 грн';
-      font-weight: 700;
-      font-size: 16px;
-      color: #252525;
-      margin-left: 13px;
-    }
   }
 
   &__card{

@@ -14,9 +14,23 @@
   margin: 0 auto;
 }
 
+.btn {
+  background: #E0BEA2;
+  border-radius: 6px;
+  border: none;
+  padding: 9px 20px;
+  font-weight: 600;
+  font-size: 16px;
+  color: #FFFFFF;
+  cursor: pointer;
+  &_disabled {
+    background: #576067;
+  }
+}
 .body2{
   background: #E5E5E5;
 }
+
 
 @import "header";
 @import "category";
@@ -35,3 +49,6 @@
 @import "media";
 @import "proc";
 @import "burMenu";
+@import "trend";
+@import "autorization";
+@import "favorites";

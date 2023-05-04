@@ -9,6 +9,12 @@
   &__left{
     display: flex;
     column-gap: 10px;
+    &-big{
+     &__img{
+       width: 600px;
+       height: 100%;
+     }
+    }
 
     &-small{
       display: flex;
@@ -32,10 +38,23 @@
       margin: 20px 0;
     }
 
-    &-color{
+    &-category{
       font-weight: 300;
       font-size: 14px;
       color: #E0BEA2;
+      margin: 10px 0 20px;
+    }
+
+    &-rating{
+      font-weight: 300;
+      font-size: 14px;
+      color: #252525;
+      margin: 10px 0 20px;
+    }
+    &-desc{
+      font-weight: 300;
+      font-size: 14px;
+      color: #252525;
       margin: 10px 0 20px;
     }
 

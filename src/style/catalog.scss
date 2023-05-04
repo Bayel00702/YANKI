@@ -1,61 +1,123 @@
-.catalog{
+.catalog {
   padding: 30px 0 100px;
 
-  &__row{
+  &__pagination {
+    text-align: center;
+    margin-top: 20px;
+    &-btn {
+      border-radius: 6px;
+      border: none;
+      padding: 9px 20px;
+      font-weight: 600;
+      font-size: 16px;
+      color: black;
+      cursor: pointer;
+      background: white;
+    }
+  }
+
+  &__row {
     display: flex;
     column-gap: 70px;
     align-items: center;
   }
 
-  &__title{
+  &__title {
     font-weight: 300;
     font-size: 20px;
     color: #252525;
   }
 
-  &__size{
+  &__size {
     display: flex;
     column-gap: 34px;
 
-    &-link{
+    &-select{
+      background: transparent;
+      padding: 10px 20px;
+      border: 1px solid #252525;
+
+    }
+    &-input{
+      padding: 10px 10px;
+      background: transparent;
+      border: none;
+    }
+
+    &-link {
       display: flex;
       column-gap: 9px;
-      align-items: center;font-weight: 300;
+      align-items: center;
+      font-weight: 300;
       font-size: 16px;
       color: #252525;
     }
   }
 
-  &__product{
+  &__product {
     width: 100%;
     display: flex;
     justify-content: space-between;
     column-gap: 100px;
     margin-top: 30px;
-    
-    &-left{
 
-     &__list{
-       display: flex;
-       flex-direction: column;
-       row-gap: 20px;
+    &-left {
 
-       &-link{
-         font-weight: 300;
-         font-size: 16px;
-         color: #252525;
-         width: 150px;
-       }
-     }
+      &__list {
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+
+        &-link {
+          font-weight: 300;
+          font-size: 16px;
+          color: #252525;
+          width: 150px;
+          &:hover{
+            color: #E0BEA2;
+          }
+
+          &.active{
+            color: #E0BEA2;
+          }
+        }
+
+
+      }
     }
 
-    &-right{
+    &-right {
       display: flex;
       gap: 30px 7px;
       flex-wrap: wrap;
 
-      &__card{
+      &__price {
+        font-weight: 700;
+        font-size: 16px;
+        color: #252525;
+        margin-top: 10px;
+      }
+
+      &__title {
+        font-weight: 300;
+        font-size: 16px;
+        color: #252525;
+        margin: 20px 0 10px;
+      }
+
+      &__img {
+        object-fit: cover;
+        width: 242px;
+        height: 300px;
+      }
+
+      &__card {
+        text-align: center;
         width: calc(33.33333% - 5px);
+        padding: 10px 5px;
+        background: white;
+        border-radius: 15px;
+        border: none;
       }
     }
   }
